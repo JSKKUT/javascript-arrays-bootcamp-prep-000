@@ -28,6 +28,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  var secondArray = array.shift();
+  array.shift(1);
   return array
 }
